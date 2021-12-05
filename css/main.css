@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap");
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  margin: 0em;
+}
+
+.orange_block {
+  font-size: 15px;
+  padding: 3.5em;
+  margin: 1.5em 1.5em 0 1.5em;
+  border-radius: 0.5em 0.5em 0 0;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(31, 77%, 52%);
+}
+
+.turquoise_block {
+  font-size: 15px;
+  padding: 3.5em;
+  margin: 0 1.5em 0 1.5em;
+  border-radius: 0 0 0 0;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(184, 100%, 22%);
+}
+
+.emerald_block {
+  font-size: 15px;
+  padding: 3.5em;
+  margin: 0 1.5em 1.5em 1.5em;
+  border-radius: 0 0 0.5em 0.5em;
+  color: hsl(0, 0%, 95%);
+  background-color: hsl(179, 100%, 13%);
+}
+
+h1 {
+  font-family: "Big Shoulders Display", cursive;
+  margin-top: 1.7em;
+  font-size: 1.9em;
+  letter-spacing: 0.03em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+p {
+  width: 13em;
+  color: hsla(0, 0%, 100%, 0.75);
+  line-height: 1.7em;
+  letter-spacing: 0.03em;
+  margin-bottom: 2em;
+}
+
+input[type="button"] {
+  background-color: hsl(0, 0%, 95%);
+  border: solid;
+  width: 65%;
+  margin-top: 2.5em;
+  padding: 1.1em;
+  border-radius: 5em 5em;
+  mix-blend-mode: screen; /* --> permet de faire une découpe sur le bouton de la m^ forme que le text*/
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+}
+
+@media (min-width: 812px) {
+  .ensemble {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
+  .orange_block {
+    display: flex;
+    font-size: 15px;
+    padding: 3.5em;
+    margin: 7em 0 7em 1.5em;
+    border-radius: 0.5em 0 0 0.5em;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(31, 77%, 52%);
+  }
+
+  .turquoise_block {
+    display: flex;
+    font-size: 15px;
+    padding: 3.5em;
+    margin: 7em 0 7em 0;
+    border-radius: 0 0 0 0;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(184, 100%, 22%);
+  }
+
+  .emerald_block {
+    display: flex;
+    font-size: 15px;
+    padding: 3.5em;
+    margin: 7em 1.5em 7em 0;
+    border-radius: 0 0.5em 0.5em 0;
+    color: hsl(0, 0%, 95%);
+    background-color: hsl(179, 100%, 13%);
+  }
+
+  p {
+    width: 15em;
+  }
+}
